@@ -1,0 +1,82 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+
+	margin: 0;
+	padding: 0;
+}
+
+.chatLog {
+	position: absolute;
+	left:0%;
+	background-color: rgba(178, 199, 217, 1);
+	width: 430px;
+	height: 520px;
+
+	padding-bottom: 30px;
+	overflow: scroll;
+}
+
+#chatInfo {
+	position: absolute;
+	right:5%;
+	width: 200px;
+	height: 400px;
+	background-color: rgba(178, 199, 217, 1);
+}
+
+#chatSub {
+	position: absolute;
+	left:0%;
+	bottom: 5%;
+}
+
+.chatLog > p {
+	display: inline-block;
+	padding: 8px;
+	margin: 6px;
+	background-color: rgba(255,255,255,1);
+	border-radius: 8px;
+	float: left;
+	clear: both;
+	font-size: 13px;
+}
+
+.chatLog > p.myMessage {
+	background-color: rgba(255,235,51,1);
+	float: right;
+	clear: both;
+}
+
+.chatBox {
+	position: relative;
+	width: 680px;
+	height: 620px;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.name {
+	border: none;
+	height: 30px;
+	width: 50px;
+	background: #ddd;
+}
+
+.message {
+	border: none;
+	height: 30px;
+	width: 263px;
+}
+
+.chat-button {
+	border: none;
+	height: 30px;
+	width: 50px;
+	background: #ddd;
+}
