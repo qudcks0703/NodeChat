@@ -5,7 +5,6 @@
  <li>Development Tool : Atom </li>
  <li>Framework : Node.js,Express,BootStrap</li>
  <li>Language/Skills : Ajax,Javascript /Jquery /HTML /CSS</li>
- <li>DB : JSON File</li>
  <li>Configuration management : Git</li>
  </ul>
 
